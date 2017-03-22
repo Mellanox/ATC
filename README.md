@@ -67,7 +67,7 @@ ln -s &lt;local openNPU folder&gt;/EZdk EZdk
 
 <h1></h1>
 
-<pre><code>To compile the ATC application go to ALVS directory and run make atc command.
+<pre><code>To compile the ATC application go to ATC directory and run make atc command.
 Make will compile the control plane (cp.mk) code and the data plane (dp.mk) code.
 </code></pre>
 
@@ -84,17 +84,17 @@ Make will compile the control plane (cp.mk) code and the data plane (dp.mk) code
 
 <p>the ATC directory on it. Afterwards, perform the above command in the debian machine.</p>
 
-<p>The output of the above command is a debian package file under ALVS folder. for example: </p>
+<p>The output of the above command is a debian package file under ATC folder. for example: </p>
 
 <pre><code>      atc_24.0100.0000_amd64.deb
 </code></pre>
 
-<p>Copy the package to the NPS-400 appliance box and install it using the following command:</p>
+<p>Copy the package to the Indigo NPS-400 appliance box and install it using the following command:</p>
 
 <pre><code>      dpkg -i atc_24.0100.0000_amd64.deb - also works for upgrade.
 </code></pre>
 
-<p>In case you want to remove ATC package from NPS-400 appliance, run the following command:</p>
+<p>In case you want to remove ATC package from Indigo NPS-400 appliance, run the following command:</p>
 
 <pre><code>      dpkg -r atc
 </code></pre>
