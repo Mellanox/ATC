@@ -44,8 +44,6 @@ in case the scripts are not located on the VM, copy it using the following comma
 
         scp <path_to_script> root@<RIP>:~
 
-password is 3tango. script will be copied to root. 
-
 important note - in future setups there will probably different set of IPs. keep in mind to keep all of the VIP(virtual IP) and RIP (real IP) in the same subnet and with the same subnet mask. 
 
 
