@@ -42,7 +42,7 @@ def clean_server(server, vm):
 		exit(0)
 	else:
 		print "Reset VM %s, Connect time is: %s" % (vm['hostname'], total)
-		server_ssh = SshConnect(server, username = "root", password = "3tango")
+		server_ssh = SshConnect(server, username = "root", password = "******")
 		server_ssh.connect()
 		cmd = "virsh reset %s-RH-7.2" %vm['hostname']
 		server_ssh.execute_command(cmd)
