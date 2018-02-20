@@ -46,7 +46,7 @@ def user_init(setup_num):
 		server_list.append(HttpServer(ip = setup_list[index]['ip'],
 						  hostname = setup_list[index]['hostname'], 
 						  username = "root", 
-						  password = "3tango", 
+						  password = "******", 
 						  vip = vip_list[0],
 						  eth='ens6'))
 		index+=1
