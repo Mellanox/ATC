@@ -777,7 +777,7 @@ class alvs_ezbox(ezbox_host):
 class HttpServer(player):
 	def __init__(self, ip, hostname, all_eths,
 				username    = "root",
-				password    = "3tango",
+				password    = "******",
 				exe_path    = None,
 				exe_script  = None,
 				exec_params = None,
@@ -963,7 +963,7 @@ class HttpServer(player):
 class HttpClient(player):
 	def __init__(self, ip, hostname, all_eths,
 				username    = "root",
-				password    = "3tango",
+				password    = "******",
 				interface   = Network_Interface.REGULAR,
 				exe_path    = "/root/tmp/",
 				src_exe_path    = os.path.dirname(os.path.realpath(__file__))+"/system_level",
