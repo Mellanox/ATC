@@ -12,7 +12,7 @@ def vm_cmd(vm, cmd, verbose=False):
 	else:
 		print cmd + '  ...'
 		cmd += " > /dev/null 2>&1"
-	return (os.system('sshpass -p 3tango ssh root@%s "%s"' % (vm, cmd)) == 0)
+	return (os.system('sshpass -p ****** ssh root@%s "%s"' % (vm, cmd)) == 0)
 
 def option_parser():
 	usage = "usage: %prog [-v OR -f]"
