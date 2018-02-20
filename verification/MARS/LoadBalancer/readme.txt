@@ -35,8 +35,6 @@ after connecting to the VM in order to run the configuration scripts you will ne
 
         su - root
 
-the password for root is 3tango.
-
 To enable the above setup you will have to run 2 different scripts on the VM boxes:
 
 1. in the director run the lvs_dr_lb.sh script (follow the usage instructions) 
