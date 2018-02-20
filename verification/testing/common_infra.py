@@ -1177,7 +1177,7 @@ class Host(player):
 	def __init__(self, hostname, all_eths,
 				ip          = None,
 				username    = "root",
-				password    = "3tango",
+				password    = "******",
 				exe_path    = "/temp/host/",
 				dump_pcap_file = '/tmp/host_dump.pcap',
 				exe_script  = None,
