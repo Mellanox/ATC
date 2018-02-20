@@ -56,7 +56,7 @@ def create_command(options):
 def run_regression(cmd):
     global mars_server
     mars_host_name = 'mtl-stm-76'
-    if not mars_server.login (mars_host_name,'root','3tango'):
+    if not mars_server.login (mars_host_name,'root','******'):
         err_msg = "SSH session: ERROR - Failed to login to " + mars_host_name
         raise RuntimeError(err_msg)
     else:
