@@ -80,7 +80,7 @@ class DDP_ezbox(ezbox_host):
 class Remote_Host(player):
 	def __init__(self, ip, hostname, all_eths,
 				username        = "root",
-				password        = "3tango",
+				password        = "******",
 				exe_path        = "DDP_install",
 				exe_script      = "bin/synca",
 				dump_pcap_file  = '/tmp/server_dump.pcap',
